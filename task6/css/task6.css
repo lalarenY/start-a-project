@@ -1,0 +1,197 @@
+html {
+    font-size:16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: darkturquoise;
+    text-align: center;
+}
+.button1 {
+    background-color: white;
+    color: darkturquoise;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    letter-spacing: 2px;
+    margin: 0.3rem 0 0 -1rem;
+    cursor: pointer;
+    width: 20%;
+    min-width: 6rem;
+}
+.disabled {
+    background-color: #117a8b;
+    color: white;
+    padding: 0.8rem 1.2rem 0.8rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 0.3rem;
+    width: 20%;
+    min-width: 7rem;
+}
+.ion1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../images/sprites.png) no-repeat -49px 0;
+    position: fixed;
+    top: 0.8rem;
+    right: 1rem;
+}
+main {
+    padding: 4rem 0 5rem 0;
+}
+a {
+    text-decoration:none;
+    color: lightgray;
+}
+ul {
+    list-style: none
+}
+li {
+    padding-top: 0.5rem;
+    margin-left: -4rem;
+}
+.down {
+    position: fixed;
+    width: 100%;
+
+}
+.drop {
+    width: 33.33%;
+    padding: 1rem 0 1rem 0;
+    border-bottom: lightgray solid 1px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+.drop-left {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    box-sizing: border-box
+}
+.triangle {
+    position: relative;
+    top: 1rem;
+    margin-left: 1rem;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 4px solid black;
+}
+.drop-content {
+    display: none;
+    width: 33.33%;
+    position: absolute;
+    background-color: white;
+}
+.drop:hover .drop-content {
+    display: block;
+}
+.information {
+    margin: 4rem 0 0 0;
+    width: 100%;
+    height: 7rem;
+    border-bottom: lightgray solid 1px;
+}
+.information2 {
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    height: 7rem;
+    border-bottom: lightgray solid 1px;
+}
+.date {
+    width: 1.5rem;
+    height: 23px;
+    background: url(../images/sprites.png) no-repeat;
+    margin-left: 0.5rem;
+    float: left;
+}
+.gray {
+    margin: 0 0 0 2.5rem;
+    color: lightgray;
+}
+.box {
+    display: flex;
+    padding-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.time {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box-left {
+    width: 8rem;
+}
+.arrow {
+    width: 20px;
+    height: 30px;
+    background: url(../images/sprites.png) no-repeat -1.5rem 0;
+    margin: 0.8rem 1rem 0 0;
+    float: right;
+}
+.red {
+    color: red;
+    float: left;
+}
+.place {
+    width: 20px;
+    height: 30px;
+    background: url(../images/sprites.png) no-repeat 0 -1.4rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: #dadcdd;
+    position: fixed;
+    bottom: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ion2 {
+    width: 2.8rem;
+    height: 2.5rem;
+    background: url(../images/sprites.png) no-repeat -211px 0;
+    text-align: center;
+    color: darkturquoise;
+    border: none;
+}
+.ion3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../images/sprites.png) no-repeat -155px 0;
+    text-align: center;
+    border: none;
+}
+.round {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    margin-top: 0.5rem;
+    border: none;
+    background: darkturquoise url(../images/sprites.png) no-repeat -90px 10px;
+}
+.word {
+    position: fixed;
+    margin: 1.5rem 0 0 -0.8rem;
+}

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+input {
+    border-style: none;
+    outline: none;
+}
+.header {
+    width: 100%;
+    background-color: darkturquoise;
+    position: fixed;
+    color: white;
+}
+.word1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.box1 {
+    position: absolute;
+    margin: 62px 0 0 0;
+    padding: 10px 0 0 20px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.box2 {
+    position: absolute;
+    padding-right: 20px;
+    border-right: solid aliceblue;
+}
+.box3 {
+    position: absolute;
+    padding: 5px 0 0 63px;
+}
+.box4 {
+    position: absolute;
+    margin: 121px 0 0 0;
+    padding: 10px 0 0 20px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.box5 {
+    position: absolute;
+    padding-right: 20px;
+    border-right: solid aliceblue;
+}
+.box6 {
+    position: absolute;
+    padding: 5px 0 0 63px;
+}
+.box7 {
+    position: absolute;
+    margin: 181px 0 0 0;
+    width: 100%;
+    height: 55px;
+    background-color: darkturquoise;
+    letter-spacing: 20px;
+    text-align: center;
+    text-indent: 1.5em;
+    color: white;
+}
+.box8 {
+    margin-top: 240px;
+    float: right;
+    color: darkturquoise;
+    text-decoration: underline;
+}
