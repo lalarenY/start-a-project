@@ -1,0 +1,194 @@
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    background-color: darkturquoise;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    width: 100%;
+    height: 11rem;
+    background-color: darkturquoise;
+    color: white;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.menu {
+    width: 2.2rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    border: white solid 2px;
+}
+.menu-in {
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    width: 1.8rem;
+    height: 2px;
+    padding: .65rem 0 .65rem 0;
+    margin: .43rem 0 0 .2rem;
+    background-clip: content-box;
+    background-color: white;
+}
+.close {
+    margin: .2rem 1.5rem 0 0;
+}
+.close:before,
+.close:after {
+    content: "";
+    height: 2.5rem;
+    width: 2px;
+    position: absolute;
+    background-color: white;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.box-top {
+     width: 100%;
+     height: 4rem;
+     position: relative;
+     background-color: #bae9f4;
+ }
+.box-top:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 2rem;
+    width: 0;
+    height: 0;
+    border-left: transparent solid .5rem;
+    border-top: #bae9f4 solid .7rem;
+    border-right: transparent solid .5rem;
+    z-index: 10;
+}
+.word {
+    position: relative;
+    top: 1.2rem;
+    padding-left: 2rem;
+    color: black;
+}
+.bgm {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: orange;
+    border-radius: 50%;
+    margin: .7rem .5rem 0 0;
+    float: right;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    margin: .34rem 0 0 .9rem;
+    border-top: transparent solid .9rem;
+    border-left: white solid 1.2rem;
+    border-bottom: transparent solid .9rem;
+    border-radius: .25rem;
+}
+.prompt {
+    width: 100%;
+    height: 3rem;
+    background-color: darkturquoise;
+}
+.prompt span {
+    color: white;
+    position: relative;
+    padding-left: 3rem;
+    top: .5rem;
+}
+main {
+    margin: 11rem 0 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-in {
+    width: 33.3%;
+    height: 33.3vw;
+}
+.box-up {
+    margin: 2% 0 0 13%;
+    width: 70%;
+    height: 18vw;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5c97b;
+    border-left: white solid 2px;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+}
+.box-down {
+    margin-left: 13%;
+    width: 70%;
+    height: 17%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83b09a;
+    border-left: white solid 2px;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+}
+.drop {
+    width: 71%;
+    height: 15%;
+    margin: 4% 0 0 13%;
+    visibility:hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-in:hover .drop {
+    visibility: visible;
+}
+.kill {
+    background: url(images/game.png) no-repeat 0 -7%;
+}
+.search {
+    background: url(images/game.png) no-repeat 0 29%;
+}
+.aim {
+    background: url(images/game.png) no-repeat 0 69%;
+}
+.rescue {
+    background: url(images/game.png) no-repeat 0 108%;
+}
+.drop button {
+    width: 4vw;
+    height: 4vw;
+    border: none;
+    background-size: 100% auto;
+    background-color: white;
+}
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: darkturquoise;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange-box {
+    position: relative;
+    padding: .8rem 0 .8rem 0;
+    font-size: 1.3rem;
+    width: 80%;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}

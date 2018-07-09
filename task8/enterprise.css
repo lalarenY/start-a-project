@@ -1,0 +1,230 @@
+.phone {
+    height: 3rem;
+    color: #29b078;
+}
+.phone p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+.phone div {
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    margin-right: .3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wechat {
+    background: url(./images/icon.png) no-repeat;
+}
+.qq {
+    background: url(./images/icon.png) no-repeat -2.2rem 0;
+}
+.twitter {
+    background: url(./images/icon.png) no-repeat -4.2rem -1px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-size: 16px;
+}
+.on {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -20px;
+    border: none;
+    background-color: #29b078;
+    width: 100%;
+    z-index: 10;
+}
+.on ul li {
+    padding-top: 1.5rem;
+    list-style: none;
+    text-align: center;
+}
+.on a {
+    display: block;
+    width: 100%;
+    text-decoration : none;
+}
+.on a:hover {
+    position: relative;
+    color: black;
+    padding-bottom: 2.25rem;
+    border-bottom: white solid 3px;
+}
+.skill {
+    width: 10rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+.skill h1 {
+    padding-top: 1rem;
+    float: left;
+    margin: 0;
+}
+.skill p{
+    padding-bottom: 1rem;
+    float: left;
+    margin: 0;
+}
+main {
+     background-color: #fafafa;
+ }
+.img-box {
+    padding-bottom: 14%;
+    margin-top: 12px;
+    position: relative;
+}
+.img-box img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+.word {
+    padding-top: 1rem;
+    float: left;
+}
+.word2 {
+    padding-top: 1rem;
+    color: #29b078;
+}
+.enterprise {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2px #9d9d9d;
+}
+.enterprise-in {
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: #e2e2e2 solid 1px;
+}
+.enterprise-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.enterprise-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+.enterprise-box2 p {
+    margin: 0;
+    color: #29b078;
+}
+.enterprise-round {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+    border: orange solid 2px;
+    border-radius: 50%;
+    float: left;
+}
+.enterprise-box2 p:hover {
+    color: orange;
+}
+.enterprise-box2:hover .enterprise-round {
+    background-color: orange;
+}
+.box {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+    box-shadow: 0 0 2px #9d9d9d;
+}
+.box img {
+    padding: 0 2rem 0 2rem;
+    float: left;
+}
+.box-in {
+    border-bottom: #e2e2e2 solid 1px;
+ }
+.box-in p {
+    padding: 2rem 3rem 2rem 3rem;
+    line-height: 2.5rem;
+    color: darkgray;
+    margin: 0;
+}
+.box-on {
+    padding-bottom: 8rem;
+    margin-bottom: 15rem;
+}
+.box-on p{
+    padding: 1rem 3rem 1rem 3rem;
+    line-height: 2.5rem;
+    color: darkgray;
+    text-indent: 2rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #25b278;
+}
+.or {
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.6rem;
+}
+.me {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+.me p{
+    padding-right: .5rem;
+}
+.line {
+    padding-left: .5rem;
+    border-left: white solid 2px;
+    float: left;
+}
+.other {
+    margin-top: 2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    color: white;
+}
+.other p {
+    margin-right: 3rem;
+    border-bottom: #25b278 solid 2px;
+}
+.other p:hover {
+    border-bottom: white solid 2px;
+}
+.we {
+    padding-bottom: 2rem;
+}
+.record {
+    width: 100%;
+    background-color: #25b278;
+    border-top: #32c086 solid 1px;
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.record span {
+    margin: 0 1rem 0 1rem;
+    padding: 1px;
+    background-color: white;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0;
+    }
+}

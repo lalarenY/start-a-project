@@ -1,0 +1,351 @@
+.phone {
+    height: 3rem;
+    color: #29b078;
+}
+.phone p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+.phone div {
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    margin-right: .3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wechat {
+    background: url(images/icon.png) no-repeat;
+}
+.qq {
+    background: url(images/icon.png) no-repeat -2.2rem 0;
+}
+.twitter {
+    background: url(images/icon.png) no-repeat -4.2rem -1px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-size: 16px;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0;
+    }
+}
+.on {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -20px;
+    border: none;
+    background-color: #29b078;
+    width: 100%;
+    z-index: 10;
+}
+.on ul li {
+    padding-top: 1.5rem;
+    list-style: none;
+    text-align: center;
+}
+.on a {
+    display: block;
+    width: 100%;
+    text-decoration : none;
+}
+.on a:hover {
+    position: relative;
+    color: black;
+    padding-bottom: 2.25rem;
+    border-bottom: white solid 3px;
+}
+.skill {
+    width: 10rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+.skill h1 {
+    padding-top: 1rem;
+    float: left;
+    margin: 0;
+}
+.skill p{
+    padding-bottom: 1rem;
+    float: left;
+    margin: 0;
+}
+main {
+    background-color: #fafafa;
+}
+.introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10vw 2.5rem 0 2.5rem;
+}
+.introduce p {
+     color: darkgray;
+     margin-top: 1rem;
+}
+.introduce div {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.rocket {
+    background: url(images/in.png) no-repeat -21.5rem -13rem;
+}
+.book {
+    background: url(images/in.png) no-repeat -22.2rem 0;
+}
+.contacts {
+    background: url(images/in.png) no-repeat -21.5rem -6.5rem;
+}
+.people {
+    border-left: #e2e2e2 dashed 2px;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10vw 2.5rem 0 2.5rem;
+}
+.people p {
+    color: darkgray;
+}
+.people div {
+    margin-top: 1rem;
+}
+.people span{
+    display:block;
+    padding: 1.2rem 0 0 .5rem;
+    color: #25b278;
+}
+.number {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    background: url(images/in.png) no-repeat -4.5rem -21.75rem;
+}
+.study {
+    text-align: center;
+    margin: 6vw 0 3.5rem 0;
+}
+.start {
+    margin: 0 1.5rem 4vw 2.5rem;
+    height: 5rem;
+    color: darkgray;
+}
+.round {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    border: #e2e2e2 solid 1px;
+    text-align: center;
+    float: left;
+}
+.round p {
+    color: #25b278;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.word {
+    margin-left: 6rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.direction {
+    width: 2rem;
+    height: 4rem;
+    float: left;
+    background: url(images/in.png) no-repeat -1rem -21rem;
+}
+.student {
+    width: 100%;
+    height: 25rem;
+    background-color: white;
+    border: #e2e2e2 solid 1px;
+    margin-top: 3vw;
+    padding: 0 2.5rem 0 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.student p {
+    color: darkgray;
+}
+.student div {
+    width: 10rem;
+    height: 9rem;
+}
+.hand {
+    background: url(images/in.png) no-repeat -11rem -11.5rem;
+}
+.hand1 {
+    background: url(images/in.png) no-repeat -.3rem -.8rem;
+}
+.hand2 {
+    background: url(images/in.png) no-repeat -11rem -.8rem;
+}
+.hand3 {
+    background: url(images/in.png) no-repeat -.3rem -11.5rem;
+}
+.shape {
+    margin: 3vw 0 6vw 0;
+    display: flex;
+    justify-content: center;
+}
+.shape div {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+.width {
+    background-color: white;
+    border: #e2e2e2 solid 1px;
+}
+.width:hover {
+    background-color: #25b278;
+}
+.box {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box-in {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-in:hover {
+    box-shadow:  0 0 1rem #e2e2e2;
+    z-index: 999;
+ }
+.alibaba {
+    width: 15rem;
+    height: 5rem;
+    background: url(images/enterprise.png) no-repeat -1rem -22.5rem;
+}
+.jinshan {
+    width: 15rem;
+    height: 5rem;
+    background: url(images/enterprise.png) no-repeat 2.5rem -30rem;
+}
+.huanxin {
+    width: 15rem;
+    height: 5rem;
+    background: url(images/enterprise.png) no-repeat -1.5rem -15rem;
+}
+.ronglian {
+    width: 15rem;
+    height: 5rem;
+    background: url(images/enterprise.png) no-repeat -1.3rem -1rem;
+}
+.qiniu {
+    width: 15rem;
+    height: 5rem;
+    background: url(images/enterprise.png) no-repeat -1rem -9rem;
+}
+@media (min-width: 1200px) {
+    .col-zdlg-2-5{
+        float: left;
+        width:20%;
+    }
+}
+.friend {
+    width: 100%;
+    background-color: white;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link li {
+    border-bottom: white solid 2px;
+    padding: 1rem;
+    color: darkgray;
+    float: left;
+ }
+.link li:hover {
+    border-bottom: #25b278 solid 2px;
+}
+@media (max-width: 320px) {
+    .link {
+        width: 20rem;
+        margin-left: 2rem;
+    }
+}
+.about {
+    width: 100%;
+    background-color: #25b278;
+}
+.or {
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.6rem;
+}
+.me {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+.me p{
+    padding-right: .5rem;
+}
+.line {
+    padding-left: .5rem;
+    border-left: white solid 2px;
+    float: left;
+}
+.other {
+    margin-top: 2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    color: white;
+}
+.other p {
+    margin-right: 3rem;
+    border-bottom: #25b278 solid 2px;
+}
+.other p:hover {
+    border-bottom: white solid 2px;
+}
+.we {
+    padding-bottom: 2rem;
+}
+.record {
+    width: 100%;
+    background-color: #25b278;
+    border-top: #32c086 solid 1px;
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.record span {
+    margin: 0 1rem 0 1rem;
+    padding: 1px;
+    background-color: white;
+}
