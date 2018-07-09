@@ -1,0 +1,87 @@
+@import "comon";
+main {
+  margin-bottom: 5rem;
+}
+.direction {
+  padding: 1.5rem 0 1.5rem 0;
+  border-bottom: #e2e2e2 solid 1px;
+  border-top: #e2e2e2 solid 1px;
+  justify-content: start;
+  flex-wrap: wrap;
+  a {
+    color: black;
+    margin-left: 1rem;
+  }
+}
+.word {
+  padding: 3rem 0 1rem 0;
+  font-size: 1.8rem;
+  border-bottom: #e2e2e2 solid 1px;
+}
+.box {
+  position: relative;
+  margin-top: 3rem;
+  .box-top {
+    margin-bottom: 4rem;
+    img {
+      margin: 1rem 0 0 1rem;
+      .l;
+    }
+    p {
+      padding: 1rem 1rem 1rem 11rem;
+    }
+  }
+  .box-left,.box-right {
+    width: 50%;
+    height: 4rem;
+    padding: 1rem 0 1rem 1rem;
+    color: darkgray;
+    font-size: .8rem;
+    border-top: #e2e2e2 solid 1px;
+    img {
+      margin-left: .5rem;
+    }
+    p {
+      padding-right: .5rem;
+    }
+  }
+  .box-left {
+    border-right: #e2e2e2 solid 1px;
+  }
+  .box-in {
+    width: 40%;
+    height: 9rem;
+    border-top: #e2e2e2 solid 1px;
+    border-right: #e2e2e2 solid 1px;
+    justify-content: center;
+  }
+  .box-in2 {
+    width: 60%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: #e2e2e2 solid 1px;
+  }
+  .box-bottom {
+    padding: 1rem;
+    border-top: #e2e2e2 solid 1px;
+  }
+}
+.box-on {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20% 10% 0 10%;
+  height: 100%;
+  opacity: 0.8;
+}
+.box:hover .box-on{
+  visibility: visible;
+}
+@media (min-width:340px) {
+  .box-right p {
+    padding-right: 0;
+  }
+}

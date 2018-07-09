@@ -1,0 +1,50 @@
+@color: #5fc0cd;
+@one: 1rem;
+.on {
+  width: 100%;
+  margin-top: @one;
+  height: @one*3;
+  display: flex;
+  align-items: center;
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: aliceblue;
+  color: white;
+  header {
+    width: 100%;
+    background-color: @color;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 @one 0 @one;
+    }
+  }
+  .box {
+    .on;
+    background-color: white;
+    .box-in {
+      margin: @one*.5 0 @one*.5 0;
+      padding: 0 @one 0 @one;
+      border-right: aliceblue solid 3px;
+    }
+    input {
+      border-style: none;
+      outline: none;
+      margin-left: @one;
+    }
+  }
+  .land {
+    .on;
+    background-color: @color;
+    justify-content: center;
+    letter-spacing: @one;
+  }
+  .box-down{
+    margin: @one @one 0 0;
+    float: right;
+    color: @color;
+    text-decoration: underline;
+  }
+}

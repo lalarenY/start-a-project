@@ -1,0 +1,131 @@
+.w {
+  width: 100%;
+}
+.tc {
+  text-align: center;
+}
+.bc {
+  background-color: #5fc0cd;
+}
+.co {
+  color: white;
+}
+.l {
+  float: left;
+}
+.td {
+  text-decoration: none;
+}
+.bb {
+  border-radius: .5rem;
+  width: 48%;
+  min-width: 4rem;
+  margin: .5rem;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+.bn {
+  border: none;
+}
+.fs {
+  font-size: 1.5rem;
+}
+.m {
+  margin: 0;
+}
+.brb {
+  border-bottom: #e2e2e2 solid 1px;
+}
+.br {
+  border-right: #e2e2e2 solid 2px;
+}
+.red {
+  color: red;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+}
+body header {
+  width: 100%;
+  background-color: #5fc0cd;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-weight: bold;
+}
+body header img {
+  padding: 1rem 0 0 1rem;
+  height: 1.3rem;
+  float: left;
+}
+body main {
+  width: 100%;
+}
+body main .background {
+  background: url(images/background.png) center;
+  background-size: cover;
+  margin-top: 3.2rem;
+  height: 14rem;
+  display: flex;
+  align-items: center;
+}
+body main .hand {
+  height: 6rem;
+  margin: 0 1rem 0 1rem;
+}
+body main .introduce {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: .5rem;
+}
+body main .introduce .gps {
+  height: 1rem;
+  margin-right: 1rem;
+}
+body main .word {
+  border-right: #e2e2e2 solid 2px;
+}
+body main .word p {
+  border-left: #5fc0cd solid 2px;
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+body main .top {
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body main .top img {
+  height: 1rem;
+  margin: 0 .5rem 0 1rem;
+}
+body main .top .lind {
+  padding-right: 1rem;
+}
+body main .top .grey {
+  margin: 1rem 1.5rem 1rem 1rem;
+  padding-right: 1.5rem;
+  color: grey;
+  flex-shrink: 0;
+}
+body footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .left {
+  border: solid 0.2rem darkturquoise;
+  background-color: white;
+  color: darkturquoise;
+  padding: 1rem;
+}
+body footer .right {
+  padding: 1.2rem;
+}

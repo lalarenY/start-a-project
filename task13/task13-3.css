@@ -1,0 +1,123 @@
+html {
+  font-size: 62.5%;
+}
+html body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.w {
+  width: 100%;
+}
+.fs8 {
+  font-size: 1.8rem;
+}
+.cw {
+  color: white;
+}
+.co {
+  color: orange;
+}
+.cg {
+  color: darkgray;
+}
+.bcw {
+  background-color: white;
+}
+.bcb {
+  background-color: darkturquoise;
+}
+.l {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tc {
+  text-align: center;
+}
+.df {
+  display: flex;
+  align-items: center;
+}
+.bn {
+  border: none;
+}
+.cb {
+  color: black;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  background-color: darkturquoise;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border-bottom: white solid 1px;
+}
+header div {
+  width: 3.5rem;
+  height: 3rem;
+  margin: 0 1rem 0 1rem;
+}
+header .home {
+  background: url(images/hand.png) no-repeat;
+}
+header .details {
+  background: url(images/hand.png) no-repeat 109% 0;
+}
+main {
+  margin: 4rem 0 0 0;
+  background-color: darkturquoise;
+}
+main p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+main .win {
+  padding-top: 2rem;
+}
+main .summary {
+  padding-bottom: 1rem;
+}
+main .summary p {
+  margin: .2rem 0 .2rem 0;
+}
+main .box {
+  border-bottom: #cdcecf solid 1px;
+}
+main .box .box-in {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(52, 190, 222, 0.5);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .red,
+footer .orange {
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  border-radius: .5rem;
+  width: 45%;
+  text-decoration: none;
+}
+footer .red {
+  background-color: #f37072;
+}
+footer .orange {
+  background-color: #f8b445;
+}

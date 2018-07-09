@@ -1,0 +1,109 @@
+@import "common";
+.p2 {padding: 2rem;}
+.cb {color: darkturquoise;}
+.bcg {background-color: darkgray}
+body {
+  background-color: gainsboro;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background-color: darkturquoise;
+}
+.menu {
+  position: fixed;
+  top: 1.2rem;
+  left: 1.3rem;
+  cursor: pointer;
+}
+#menu {
+  display: none;
+}
+#menu:checked ~ main {
+  transform: translateX(60vw);
+  transition: transform 500ms ease;
+}
+.line {
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+  .wh(1.5rem,.15rem);
+  background-clip: content-box;
+  padding: .5rem 0 .5rem 0;
+  display:block;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: -60vw;
+  width: 60vw;
+  height: 100%;
+  .bcw;
+  transition: left 500ms ease;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: darkgray solid 1px;
+      img {
+        margin: 0 1rem 0 1rem;
+      }
+    }
+    .arrow-b {
+      .wh(1rem,1rem);
+      border-top: 2px solid darkturquoise;
+      border-right: 2px solid darkturquoise;
+      transform: rotate(45deg);
+      margin-right: 1rem;
+    }
+  }
+}
+main {
+  margin: 2rem 1rem 1rem 1rem;
+  .game {
+    margin-bottom: 1rem;
+    .arrow {
+      margin-top: .3rem;
+      .wh(1rem,1rem);
+      border-top: 2px solid darkgray;
+      border-right: 2px solid darkgray;
+      transform: rotate(45deg);
+    }
+    >.box-top p {
+      border-bottom: orange solid 1px;
+      padding: 2rem 0 2rem 0;
+      margin: 0;
+    }
+    .blue-box {
+      margin: 2rem auto 2rem auto;
+      padding: 3rem 0 3rem 0;
+      width: 80%;
+      display: block;
+    }
+  }
+  .triangle {
+    .wh(0,0);
+    border-top: 1.2rem solid transparent;
+    border-left: 1rem solid orange;
+    border-bottom: 1.2rem solid transparent;
+    position: absolute;
+    right: 1.5rem;
+    margin-top: 6.5rem;
+  }
+  .box-bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    .round {
+      .wh(1rem,1rem);
+      border-radius: 50%;
+      margin-left: .5rem;
+    }
+    .round:hover {
+      .bcb;
+    }
+  }
+}

@@ -1,0 +1,171 @@
+@import "common";
+.cz {
+  position: relative;
+  top: 17%;
+  transform: translateY(-50%);
+}
+
+.brl (@c){
+  border-left: @c solid 2px;
+  border-right: @c solid 2px;
+}
+body {
+  .bcb;
+}
+header {
+  .w;
+  .cw;
+  .bcb;
+  height: 12rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+  .menu {
+    .wh(2rem, 2.5rem);
+    margin-left: 1rem;
+    border: white solid 2px;
+    .menu-in {
+      border-top: white solid 2px;
+      border-bottom: white solid 2px;
+      .wh(1.6rem, .15rem);
+      padding: .65rem 0 .65rem 0;
+      margin: .35rem 0 0 .2rem;
+      background-clip: content-box;
+    }
+  }
+}
+.close {
+  margin: .2rem 1.5rem 0 0;
+}
+.close:before,
+.close:after {
+  content: "";
+  .wh(.2rem,2.5rem);
+  position: absolute;
+  .bcw;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.box-top {
+  height: 4rem;
+  position: relative;
+  background-color: #bae9f4;
+  .df;
+  justify-content: space-between;
+  color: black;
+  span {
+    padding-left: 2rem;
+  }
+}
+.box-top:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 2rem;
+  .wh(0,0);
+  border-left: transparent solid .5rem;
+  border-top: #bae9f4 solid .7rem;
+  border-right: transparent solid .5rem;
+  z-index: 10;
+}
+.bgm {
+  .wh(2.5rem,2.5rem);
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: .5rem;
+  .triangle {
+    .wh(0,0);
+    margin: .34rem 0 0 .9rem;
+    border-top: transparent solid .9rem;
+    border-left: white solid 1.2rem;
+    border-bottom: transparent solid .9rem;
+    border-radius: .25rem;
+  }
+}
+.prompt {
+  height: 3rem;
+  span {
+    padding-left: 2.5rem;
+  }
+}
+main {
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  .box-in {
+    width: 33.3%;
+    height: 33.3vw;
+    .box-up,.box-down {
+      width: 70%;
+      .df;
+      justify-content: center;
+      .brl(white);
+    }
+    .box-up {
+      margin: 5% 0 0 13%;
+      height: 18vw;
+      border-top: white solid 2px;
+      background-color: #f5c97b;
+    }
+    .box-down {
+      margin-left: 13%;
+      height: 17%;
+      background-color: #83b09a;
+      border-bottom: white solid 2px;
+    }
+    .drop {
+      width: 70%;
+      height: 15%;
+      margin: 4% 0 0 13%;
+      visibility:hidden;
+      .df;
+      justify-content: space-between;
+    }
+    button {
+      .wh(3.7vw,3.7vw);
+      border: none;
+    }
+    .kill {
+      background: white url(images/game.png) no-repeat 0 -7%;
+      background-size: 100% auto;
+    }
+    .search {
+      background: white url(images/game.png) no-repeat 0 29%;
+      background-size: 100% auto;
+    }
+    .aim {
+      background: white url(images/game.png) no-repeat 0 69%;
+      background-size: 100% auto;
+    }
+    .rescue {
+      background: white url(images/game.png) no-repeat 0 108%;
+      background-size: 100% auto;
+    }
+  }
+  .box-in:hover .drop {
+    visibility: visible;
+  }
+}
+footer {
+  width: 100%;
+  .bcb;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  .df;
+  justify-content: center;
+  .orange-box {
+    padding: 1rem 0 1rem 0;
+    width: 80%;
+    background-color: orange;
+    cursor: pointer;
+  }
+}

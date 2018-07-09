@@ -1,0 +1,226 @@
+html {
+  font-size: 62.5%;
+}
+html body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.w {
+  width: 100%;
+}
+.fs8 {
+  font-size: 1.8rem;
+}
+.cw {
+  color: white;
+}
+.co {
+  color: orange;
+}
+.cg {
+  color: darkgray;
+}
+.bcw {
+  background-color: white;
+}
+.bcb {
+  background-color: darkturquoise;
+}
+.l {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tc {
+  text-align: center;
+}
+.df {
+  display: flex;
+  align-items: center;
+}
+.bn {
+  border: none;
+}
+.cz {
+  position: relative;
+  top: 17%;
+  transform: translateY(-50%);
+}
+body {
+  background-color: darkturquoise;
+}
+header {
+  width: 100%;
+  color: white;
+  background-color: darkturquoise;
+  height: 12rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+header .menu {
+  width: 2rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  border: white solid 2px;
+}
+header .menu .menu-in {
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+  width: 1.6rem;
+  height: 0.15rem;
+  padding: .65rem 0 .65rem 0;
+  margin: .35rem 0 0 .2rem;
+  background-clip: content-box;
+}
+.close {
+  margin: .2rem 1.5rem 0 0;
+}
+.close:before,
+.close:after {
+  content: "";
+  width: 0.2rem;
+  height: 2.5rem;
+  position: absolute;
+  background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.box-top {
+  height: 4rem;
+  position: relative;
+  background-color: #bae9f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+.box-top span {
+  padding-left: 2rem;
+}
+.box-top:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 2rem;
+  width: 0;
+  height: 0;
+  border-left: transparent solid .5rem;
+  border-top: #bae9f4 solid .7rem;
+  border-right: transparent solid .5rem;
+  z-index: 10;
+}
+.bgm {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: .5rem;
+}
+.bgm .triangle {
+  width: 0;
+  height: 0;
+  margin: .34rem 0 0 .9rem;
+  border-top: transparent solid .9rem;
+  border-left: white solid 1.2rem;
+  border-bottom: transparent solid .9rem;
+  border-radius: .25rem;
+}
+.prompt {
+  height: 3rem;
+}
+.prompt span {
+  padding-left: 2.5rem;
+}
+main {
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .box-in {
+  width: 33.3%;
+  height: 33.3vw;
+}
+main .box-in .box-up,
+main .box-in .box-down {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: white solid 2px;
+  border-right: white solid 2px;
+}
+main .box-in .box-up {
+  margin: 5% 0 0 13%;
+  height: 18vw;
+  border-top: white solid 2px;
+  background-color: #f5c97b;
+}
+main .box-in .box-down {
+  margin-left: 13%;
+  height: 17%;
+  background-color: #83b09a;
+  border-bottom: white solid 2px;
+}
+main .box-in .drop {
+  width: 70%;
+  height: 15%;
+  margin: 4% 0 0 13%;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .box-in button {
+  width: 3.7vw;
+  height: 3.7vw;
+  border: none;
+}
+main .box-in .kill {
+  background: white url(images/game.png) no-repeat 0 -7%;
+  background-size: 100% auto;
+}
+main .box-in .search {
+  background: white url(images/game.png) no-repeat 0 29%;
+  background-size: 100% auto;
+}
+main .box-in .aim {
+  background: white url(images/game.png) no-repeat 0 69%;
+  background-size: 100% auto;
+}
+main .box-in .rescue {
+  background: white url(images/game.png) no-repeat 0 108%;
+  background-size: 100% auto;
+}
+main .box-in:hover .drop {
+  visibility: visible;
+}
+footer {
+  width: 100%;
+  background-color: darkturquoise;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .orange-box {
+  padding: 1rem 0 1rem 0;
+  width: 80%;
+  background-color: orange;
+  cursor: pointer;
+}
