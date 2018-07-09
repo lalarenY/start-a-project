@@ -1,0 +1,43 @@
+main {
+  margin: 0;
+}
+main .lf {
+  width: 80%;
+  height: 5rem;
+  border-right: 2px solid grey;
+  color: white;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+main .lf p {
+  margin: 0 2rem;
+}
+main .in {
+  width: 80%;
+  height: 6rem;
+  display: flex;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+main .in .big {
+  width: 6rem;
+  background-color: darkgray;
+}
+main .in .big p {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+main .in .box {
+  margin: 1rem 0 0 1rem;
+  display: flex;
+}
+main .in .box p {
+  margin: 0;
+}
+main .in .box span {
+  margin-right: 2rem;
+}

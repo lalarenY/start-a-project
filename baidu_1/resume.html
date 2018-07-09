@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="tongyong.css">
+    <link rel="stylesheet" type="text/css" href="style_3.css">
+</head>
+<body>
+<main>
+    <div class="lf">
+        <div class="big fs2">
+            <p>简历</p>
+        </div>
+    </div>
+    <div class="in">
+        <div class="big fs1">
+            <p>基本信息</p>
+        </div>
+        <div class="box">
+            <span>姓名 张三</span>
+            <span>性别 男</span>
+            <span>应聘职位 Web前端工程师</span>
+        </div>
+    </div>
+    <div class="in">
+        <div class="big fs1">
+            <p>联系方式</p>
+        </div>
+        <div class="box">
+            <span>手机 123456123</span>
+            <span>Email <a class="fcb tdu">joinefe@baidu.com</a></span>
+            <span>个人主页 <a class="fcb tdu">Github</a></span>
+        </div>
+    </div>
+    <div class="in">
+        <div class="big fs1">
+            <p>能力描述</p>
+        </div>
+        <div>
+            <div class="box">
+                <div>技术能力</div>
+                <p>熟练掌握HTML,CSS,JavaScript</p>
+            </div>
+            <div class="box">
+                <div>综合能力</div>
+                <p>良好的沟通，主动积极，努力勤奋</p>
+            </div>
+        </div>
+    </div>
+    <div class="in">
+        <div class="big fs1">
+            <p>教育经历</p>
+        </div>
+        <div>
+            <div class="box">
+                <div>本科</div>
+                <p>百度前端技术学院小微学院</p>
+            </div>
+            <div class="box">
+                <div>研究生</div>
+                <p>百度前端技术学院大斌学院</p>
+            </div>
+        </div>
+    </div>
+    <div class="in">
+        <div class="big fs1">
+            <p>项目经历</p>
+        </div>
+        <div>
+            <div class="box">
+                <div>小度小度</div>
+                <p>作为前端工程师角色参与了ABC组件的开发</p>
+            </div>
+            <div class="box">
+                <div id="1">SAN Doc</div>
+                <p>作为文档工程师参与了CAN Doc编写</p>
+            </div>
+        </div>
+    </div>
+    <button id="ab">兴趣爱好</button>
+    <p id="text"></p>
+</main>
+<input id="first-number" type="number" value="0" placeholder="第一个数字">
+<input id="second-number" type="number" value="0" placeholder="第二个数字">
+<button id="add-btn">加</button>
+<button id="minus-btn">减</button>
+<button id="times-btn">乘</button>
+<button id="divide-btn">除</button>
+<p id="result">运算结果</p>
+<script>
+    document.getElementById("ab").onclick = function () {
+        document.getElementById("text").innerHTML = "van游戏";
+        console.log('van游戏');
+    };
+    var result = document.getElementById('result'),
+        fires = document.getElementById('first-number'),
+        second = document.getElementById('second-number'),
+        jia =  document.getElementById('add-btn'),
+        jian = document.getElementById('minus-btn'),
+        cheng = document.getElementById('times-btn'),
+        chu = document.getElementById('divide-btn');
+    jia.onclick = function () {
+        result.innerText = parseInt(fires.value) + parseInt(second.value)
+    }
+
+    jian.onclick = function () {
+        result.innerText = parseInt(fires.value) - parseInt(second.value)
+    }
+
+    cheng.onclick = function () {
+        result.innerText = parseInt(fires.value) * parseInt(second.value)
+    }
+
+    chu.onclick = function () {
+        if (second.value == 0) {
+            alert("除数不为0");
+            console.log("除数不为0")
+        } else {
+            result.innerText = parseInt(fires.value) / parseInt(second.value)
+        }
+    }
+</script>
+</body>
+</html>

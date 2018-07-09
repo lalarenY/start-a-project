@@ -1,0 +1,15 @@
+main {
+  margin: 0 1rem;
+}
+main .big {
+  margin: 1rem 0;
+}
+main .box span {
+  margin-right: 2rem;
+}
+main .box div {
+  margin-top: 1rem;
+}
+main .box p {
+  margin: 0;
+}

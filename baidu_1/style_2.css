@@ -1,0 +1,24 @@
+main {
+  margin: 0 1rem;
+}
+main .lf {
+  margin-right: 1rem;
+  width: 10rem;
+  height: 34rem;
+  text-align: center;
+  float: left;
+  color: white;
+  background-color: blue;
+}
+main .big {
+  margin: 1rem 0;
+}
+main .box span {
+  margin-right: 2rem;
+}
+main .box div {
+  margin-top: 1rem;
+}
+main .box p {
+  margin: 0;
+}
