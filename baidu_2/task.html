@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
+<input id="bin-bit" type="number" placeholder="输入转化后二进制数字位数">
+<button id="trans-btn">转化为二进制</button>
+<p id="result">运算结果</p>
+<script>
+    var dec = document.getElementById('dec-number'),
+        trans = document.getElementById('trans-btn'),
+        result = document.getElementById('result'),
+        bin = document.getElementById('bin-bit');
+    trans.onclick = function () {
+        var ad = /^\+?[1-9][0-9]*$/;
+        var a = dec.value;
+        var bi = bin.value;
+        var b = [];
+        var c = 1;
+        var arr = [];
+        if (!ad.test(dec.value)) {
+            alert('请输入非零整数');
+            console.log('请输入非零整数')
+        } else for (var i =0; 1; i++) {
+            if (c == 0) {
+                break
+            } else {
+                b = a % 2;
+                c = parseInt(a / 2);
+                a = c;
+                arr.push(b);
+            }
+        }
+        for (var g = 0; 1; g++){
+            if (bi == arr.length) {
+                break
+            } else if (bi < arr.length) {
+                console.log("长度过短");
+                break
+            } else {
+                arr.unshift(0);
+            }
+        }
+        result.innerText = arr;
+    }
+    var a3 = [];
+    for (var i = 1; i < 101; i++) {
+        if (i % 3 == 0 || i % 10 ==3 || parseInt(i/10) == 3) {
+            a3.push("PA");
+        } else {
+            a3.push(i);
+        }
+        console.log(a3);
+    }
+    var div = document.getElementById("div");
+    for (var k = 1, l = 9; k <= 9; k++) {
+        var t = k*l;
+        if (k == l && t/k == l) {
+            console.log(k + "x" + l + "=" + t);
+            document.write(k + "x" + l + "=" + t + "<br>");
+            k = 0;
+            l--;
+        } else if (l == 0){
+            break
+        } else {
+            console.log(k + "x" + l + "=" + t);
+            document.write(k + "x" + l + "=" + t + "&nbsp;");
+        }
+    }
+    var date = new Date();
+    var af = date.getHours();
+    if (af >=6 && af <=10) {
+        alert("早上好");
+    } else if (af >10 && af <=13) {
+        alert("中午好");
+    } else if (af >13 && af <=19) {
+        alert("下午好");
+    } else if (af >19 && af <6) {
+        alert("晚上好");
+    }
+</script>
+</body>
+</html>
